@@ -1,4 +1,4 @@
-#include "ishant.h"
+#include "pankaj.h"
 #include <stdio.h>
 #include <math.h>
 void displayArray(int arr[], int size) {
@@ -11,7 +11,7 @@ void displayArray(int arr[], int size) {
 }
 
 void reverseArray(int arr[], int size) {
-    for (int i=0; i<size/2; i++) {
+    for (int i=0; i<size/2; i++) { 
         int temp = arr[i];
         arr[i] = arr[size-1-i];
         arr[size-1-i] = temp;
@@ -44,7 +44,7 @@ int linearSearch(int arr[], int size, int value) {
     return -1;
 }
 #include <stdio.h>
-#include "ishant.h"
+#include "pankaj.h" 
 
 int main() {
     int num = 12;
